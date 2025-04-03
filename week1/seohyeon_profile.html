@@ -5,6 +5,8 @@
  2. 좋아하는 음악 링크 태그 사용해서 가져오기 (유튜브로)
  3. table 태그를 이용해서 이번 학기 일정표 만들기 -->
 
+ <!--코드리뷰 후 수정본-->
+
  <!DOCTYPE html>
  <html lang="ko">
  <head>
@@ -13,208 +15,245 @@
      <meta name="keywords" content="자기소개, 김서현" />
      <meta name="author" content="김서현"/>
      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-     <title>김서현 자기소개</title>
- </head>
  
- <body>
-     <header>
-         <h2>☁️김서현에 대해서 소개합니다!</h2>
-     </header>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="icon" href="pngwing.com.png">
+     <title>김서현 자기소개 페이지</title>
  
-     <nav>
-         <ul>
-             <li>직무 : Frontend</li>
-             <li>연락처 : 010-7400-7860</li>
-             <li>이메일 : seohyeon0219@naver.com</li>
-         </ul>
-     </nav>
- 
-     <section>
-         <h3>기본 정보</h3>
-         <ul>
-             <li>이름 : 김서현</li>
-             <li>학번 : 12221840</li>
-             <li>학과 : 경영학과 / 소프트웨어융합연계전공</li>
-             <li>MBTI : ESTJ</li>
-         </ul>
-     </section>
- 
-     <section>
-         <article>
-             <h3>취미</h3>
-             <p>드럼 치기, 야구 보기, 혼코노, 클라이밍</p>
-         </article>
-         <article>
-             <h3>좋아하는 음식</h3>
-             <p>복숭아, 회, 일식, 마라탕</p>
-         </article>
- 
-     </section>
-     <section>
-         <h3>좋아하는 노래</h3>
-         <ul>
-             <p>
-             <img src = "Angel_Baby_cover.jpeg" alt = "Angel baby" width = "100"/>
-             <li>Angel baby - Troye Sivan
-                 <a href = "https://www.youtube.com/watch?v=IR-6KE8C4VQ" target = "_blank">🎶</a>
-             </li>
-             </p>
-             <p>
-             <img src = "SE-ff287360-f2d6-4b49-857d-e2609522d893.png" alt = "24/7 365" width = "100"/>
-             <li>24/7 365 - Elijah Woods 
-                 <a href = "https://www.youtube.com/watch?v=r8EVmdyJp-M" target = "_blank">🎶</a>
-             </li>
-             </p>
-             <p>
-             <img src = "다운로드.jpg" alt = "Loving you girl" width = "100"/>
-             <li>Loving you girl - Peder Elias 
-                 <a href = "https://www.youtube.com/watch?v=uZbB9DssRlA" target = "_blank">🎶</a>
-             </li>
-             </p>
-         </ul>
-     </section>
- 
-     <section>
-         <h3>쉬는 날에는?</h3>
-         <ul>
-             <li>친구들 만나기</li>
-             <li>카페 가서 할 일 하기</li>
-             <li>드럼 연습가기</li>
-         </ul>
-     </section>
- 
-     <section>
-         <h3>버킷리스트</h3>
-         <ul>
-             <li>혼자 유럽여행 가기</li>
-         </ul>
-     </section>
- 
-     <h3>이번 학기 일정표</h3>
-     <table style = "width:50%">
-         <thead>
-             <tr>
-                 <th>시간대</th>
-                 <th style="width:17%">월</th>
-                 <th style="width:17%">화</th>
-                 <th style="width:17%">수</th>
-                 <th style="width:17%">목</th>
-                 <th style="width:17%">금</th>
-             </tr>
-         </thead>
-         <tbody>
-             <tr>
-                 <td>09:00~10:30</td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td rowspan="2" class = "social">소셜<br>비지니스<br>경영론
-                 <td></td>
-             </tr>
-             <tr>
-                 <td>10:30~12:00</td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-             </tr>
-             <tr>
-                 <td>12:00~1:30</td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-             </tr>
-             <tr>
-                 <td>1:30~3:00</td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td rowspan="2" class = "survey">사회조사<br>방법론
-             </tr>
-             <tr>
-                 <td>3:00~4:30</td>
-                 <td></td>
-                 <td></td>
-                 <td rowspan="2" class = "data">자료구조론</td>
-                 <td rowspan="2" class = "company">기업가적<br>리더십
-             </tr>
-             <tr>
-                 <td>4:30~6:00</td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-             </tr>
-             <tr>
-                 <td>6:00~7:30</td>
-                 <td rowspan="2" class = "program">프로그램언어
-                 <td rowspan="2" class = "computer">컴퓨터시스템
-                 <td></td>
-                 <td></td>
-                 <td></td>
-             </tr>
-             <tr>
-                 <td>7:30~9:00</td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-             </tr>
-         </tbody>
-     </table>
- 
-     <aside></aside>
-     <footer></footer> 
- 
+     <link rel="stylesheet" type="text/css" href="tasks\week1\seohyeon.css">
+   
      <style>
-         table,
-         th,
-         tr,
-         td {
-             border: solid;
+         .emoji_computer{
+             font-size: 100px;
+         }
+     </style>
+ 
+     <!--style 태그 head 안으로 이동-->
+     <style>
+         table, th, td{
+             border: 0.8px solid;
+             border-collapse: collapse;
          }
      </style>
  
      <style>
-         table{
-             border-collapse: collapse;
-             width: 500px;
-         }
- 
          th, td{
-             border: 2px solid black;
              padding: 10px;
-             text-align : center;
-             vertical-align: middle;
-             line-height: 1.5;
+             text-align: center;
+             vertical-align: center;
          }
- 
      </style>
  
      <style>
          th{
-             background-color:#E0F8E0 ;
+             background-color: #e8f5fc;
          }
-         .social{
-             background-color: #FBEFF2;
-         }
-         .survey{
-             background-color: #F7F8E0;
-         }
-         .data{
-             background-color: #E0F8E0;
-         }
-         .program{
-             background-color:#F8ECE0 ;
-         }
-         .company{
-             background-color: #E0E6F8;
-         }
-         .computer{
-             background-color: #F2EFFB;
+         .social, .society, .data, .company, .program, .computer{
+             background-color: #ececee;
          }
      </style>
+ 
+ </head>
+ 
+ <body>
+     <!--inline-style 태그 대신 클래스로 스타일 변경-->
+     <header>
+         <h1>
+             <span class = "emoji_computer">👩🏻‍💻</span><br>
+             김서현 자기소개 페이지 
+         </h1>
+     </header>
+ 
+     <nav></nav>
+ 
+     <section>
+         <ul>
+             <li><strong>직무</strong> : Frontend</li>
+             <li><strong>전화번호</strong> : 01074007860</li>
+             <li><strong>이메일</strong> : seohyeon0219@naver.com</li>
+             <br>
+             <li><strong>학번 / 학과</strong> : 22학번 경영학과, 소프트웨어융합연계전공</li>
+             <li><strong>나이</strong>> : 24세</li>
+             <li><strong>mbti</strong> : ESTJ</li>
+         </ul>
+     </section>
+ 
+     <br><hr><br>
+ 
+     <section>
+         <h3><i>✨&nbsp;취미</i></h3>
+         <ul>
+             <li>드럼 연주</li>
+             <li>야구 보기</li>
+             <li>혼자 해외여행 가기</li>
+             <li>혼코노</li>
+             <li>클라이밍</li>
+         </ul>
+     </section>
+ 
+     <br>
+ 
+     <section>
+         <h3><i>🥞&nbsp;좋아하는 음식</i></h3>
+         <ul>
+             <li>복숭아</li>
+             <li>회</li>
+             <li>일식</li>
+         </ul>
+     </section>
+ 
+     <!--<ul>,<li>태그 대신 <p>,<br>태그로 적어보기 
+     <section>
+         <h3><i>🥞&nbsp;좋아하는 음식</i></h3>
+         <p>
+             복숭아<br>회<br>일식
+         </p>
+     </section>-->
+ 
+     <br>
+ 
+     <section>
+         <h3><i>🎧&nbsp;좋아하는 노래</i></h3>
+ 
+         <ul>
+             <li>
+                 <p>
+                     <br>
+                     <img src = "Angel_Baby_cover.jpeg" alt = "Angel baby" width = "100"/><br>
+                     Angel Baby - Troye Sivan
+                     <a href = "https://www.youtube.com/watch?v=IR-6KE8C4VQ" target = "_blank">🎶</a>
+                 </p>
+             </li>
+ 
+             <li>
+                 <p>
+                     <br>
+                     <img src = "SE-ff287360-f2d6-4b49-857d-e2609522d893.png" alt = "24/7 365" width = "100"/><br>
+                     24/7 365 - Elijah Woods
+                     <a href = "https://www.youtube.com/watch?v=r8EVmdyJp-M" target = "_blank">🎶</a>
+                 </p>
+             </li>
+ 
+             <li>
+                 <br>
+                 <img src = "다운로드.jpg" alt = "Loving you girl" width = "100"/><br>
+                 Loving you girl - Peder Elias
+                 <a href = "https://www.youtube.com/watch?v=uZbB9DssRlA" target = "_blank">🎶</a>
+             </li>
+         </ul>
+     </section>
+ 
+     <br>
+ 
+     <section>
+         <h3><i>🥁&nbsp;쉬는 날에는?</i></h3>
+         <ul>
+             <li>카공&nbsp;<small>(인프런 강의, 스터디 과제, 부트캠프 복습 & 과제 ...)</small></li>
+             <li>드럼 연습&nbsp;<small>(최근에는 낙화 - 루시치고 있습니다🎶)</small></li>
+             <li>친구들 만나기</li>
+             <li>유기견 봉사&nbsp;<small>(이번 주부터 매주 1번..!)</small></li>
+         </ul>
+     </section>
+ 
+     <br>
+ 
+     <section>
+         <h3><i>🌟&nbsp;버킷리스트</i></h3>
+         <ul>
+             <li>혼자 유럽 여행 가기</li>
+             <li>해외 한 달 살기</li>
+         </ul>
+     </section>
+ 
+     <br><hr><br>
+ 
+     <section>
+         <h3><i>📆&nbsp;이번 학기 일정표</i></h3>
+         <table style = "width: 50%">
+             <thead>
+                 <tr>
+                 <th style = "width: 15%;">시간대</th> <!--%추가-->
+                 <th style = "width: 17%;">월</th>
+                 <th style = "width: 17%;">화</th>
+                 <th style = "width: 17%;">수</th>
+                 <th style = "width: 17%;">목</th>
+                 <th style = "width: 17%;">금</th>
+                 </tr>
+             </thead>
+ 
+             <tbody>
+                 <tr>
+                     <td>09:00~10:30</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td rowspan = "2" class = "social">소셜<br>비지니스<br>경영론</td>
+                     <td></td>
+                 </tr>
+ 
+                 <tr>
+                     <td>10:30~12:00</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                 </tr>
+ 
+                 <tr>
+                     <td>12:00~1:30</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                 </tr>
+ 
+                 <tr>
+                     <td>1:30~3:00</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td rowspan = "2" class = "society">사회조사<br>방법론</td>
+                 </tr>
+ 
+                 <tr>
+                     <td>3:00~4:30</td>
+                     <td></td>
+                     <td></td>
+                     <td rowspan = "2" class = "data">자료<br>구조론</td>
+                     <td rowspan = "2" class = "company">기업가적<br>리더십</td>
+                 </tr>
+ 
+                 <tr>
+                     <td>4:30~6:00</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                 </tr>
+ 
+                 <tr>
+                     <td>6:00~7:30</td>
+                     <td rowspan = "2" class = "program">프로그램<br>언어</td>
+                     <td rowspan = "2" class = "computer">컴퓨터<br>시스템</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                 </tr>
+ 
+                 <tr>
+                     <td>7:30~9:00</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                 </tr>
+             </tbody>
+         </table>
+     </section>
+ 
+     <aside></aside>
+     <br>
+     <footer>kimseohyeon</footer>
  
  </body>
  </html>
