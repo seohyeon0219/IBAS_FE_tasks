@@ -28,7 +28,6 @@
          }
      </style>
  
-     <!--style 태그 head 안으로 이동-->
      <style>
          table, th, td{
              border: 0.8px solid;
@@ -52,11 +51,24 @@
              background-color: #ececee;
          }
      </style>
- 
+
+     <!--table style class로 추가-->
+     <style>
+        .schedule_table{
+            width: 50%
+        }
+        
+        .col-15{
+            width: 15%;
+        }
+
+        .col-17{
+            width: 17%;
+        } 
+     </style>
  </head>
  
  <body>
-     <!--inline-style 태그 대신 클래스로 스타일 변경-->
      <header>
          <h1>
              <span class = "emoji_computer">👩🏻‍💻</span><br>
@@ -101,15 +113,7 @@
              <li>일식</li>
          </ul>
      </section>
- 
-     <!--<ul>,<li>태그 대신 <p>,<br>태그로 적어보기 
-     <section>
-         <h3><i>🥞&nbsp;좋아하는 음식</i></h3>
-         <p>
-             복숭아<br>회<br>일식
-         </p>
-     </section>-->
- 
+
      <br>
  
      <section>
@@ -166,18 +170,19 @@
      </section>
  
      <br><hr><br>
- 
+     
+     <!--table inline-style tag 수정-->
      <section>
          <h3><i>📆&nbsp;이번 학기 일정표</i></h3>
-         <table style = "width: 50%">
+         <table class = "schedule_table">
              <thead>
                  <tr>
-                 <th style = "width: 15%;">시간대</th> <!--%추가-->
-                 <th style = "width: 17%;">월</th>
-                 <th style = "width: 17%;">화</th>
-                 <th style = "width: 17%;">수</th>
-                 <th style = "width: 17%;">목</th>
-                 <th style = "width: 17%;">금</th>
+                    <th class = "col-15">시간대</th>
+                    <th class = "col-17">월</th>
+                    <th class = "col-17">화</th>
+                    <th class = "col-17">수</th>
+                    <th class = "col-17">목</th>
+                    <th class = "col-17">금</th>
                  </tr>
              </thead>
  
