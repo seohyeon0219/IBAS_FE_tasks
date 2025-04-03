@@ -1,0 +1,220 @@
+<!-- 1주차 과제 : 자기소개 페이지 만들기 (시멘틱 태그 이용)
+
+조건
+ 1. img 태그를 사용해서 이미지 1개 이상 넣기
+ 2. 좋아하는 음악 링크 태그 사용해서 가져오기 (유튜브로)
+ 3. table 태그를 이용해서 이번 학기 일정표 만들기 -->
+
+ <!DOCTYPE html>
+ <html lang="ko">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keywords" content="자기소개, 김서현" />
+     <meta name="author" content="김서현"/>
+     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+     <title>김서현 자기소개</title>
+ </head>
+ 
+ <body>
+     <header>
+         <h2>☁️김서현에 대해서 소개합니다!</h2>
+     </header>
+ 
+     <nav>
+         <ul>
+             <li>직무 : Frontend</li>
+             <li>연락처 : 010-7400-7860</li>
+             <li>이메일 : seohyeon0219@naver.com</li>
+         </ul>
+     </nav>
+ 
+     <section>
+         <h3>기본 정보</h3>
+         <ul>
+             <li>이름 : 김서현</li>
+             <li>학번 : 12221840</li>
+             <li>학과 : 경영학과 / 소프트웨어융합연계전공</li>
+             <li>MBTI : ESTJ</li>
+         </ul>
+     </section>
+ 
+     <section>
+         <article>
+             <h3>취미</h3>
+             <p>드럼 치기, 야구 보기, 혼코노, 클라이밍</p>
+         </article>
+         <article>
+             <h3>좋아하는 음식</h3>
+             <p>복숭아, 회, 일식, 마라탕</p>
+         </article>
+ 
+     </section>
+     <section>
+         <h3>좋아하는 노래</h3>
+         <ul>
+             <p>
+             <img src = "Angel_Baby_cover.jpeg" alt = "Angel baby" width = "100"/>
+             <li>Angel baby - Troye Sivan
+                 <a href = "https://www.youtube.com/watch?v=IR-6KE8C4VQ" target = "_blank">🎶</a>
+             </li>
+             </p>
+             <p>
+             <img src = "SE-ff287360-f2d6-4b49-857d-e2609522d893.png" alt = "24/7 365" width = "100"/>
+             <li>24/7 365 - Elijah Woods 
+                 <a href = "https://www.youtube.com/watch?v=r8EVmdyJp-M" target = "_blank">🎶</a>
+             </li>
+             </p>
+             <p>
+             <img src = "다운로드.jpg" alt = "Loving you girl" width = "100"/>
+             <li>Loving you girl - Peder Elias 
+                 <a href = "https://www.youtube.com/watch?v=uZbB9DssRlA" target = "_blank">🎶</a>
+             </li>
+             </p>
+         </ul>
+     </section>
+ 
+     <section>
+         <h3>쉬는 날에는?</h3>
+         <ul>
+             <li>친구들 만나기</li>
+             <li>카페 가서 할 일 하기</li>
+             <li>드럼 연습가기</li>
+         </ul>
+     </section>
+ 
+     <section>
+         <h3>버킷리스트</h3>
+         <ul>
+             <li>혼자 유럽여행 가기</li>
+         </ul>
+     </section>
+ 
+     <h3>이번 학기 일정표</h3>
+     <table style = "width:50%">
+         <thead>
+             <tr>
+                 <th>시간대</th>
+                 <th style="width:17%">월</th>
+                 <th style="width:17%">화</th>
+                 <th style="width:17%">수</th>
+                 <th style="width:17%">목</th>
+                 <th style="width:17%">금</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>09:00~10:30</td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td rowspan="2" class = "social">소셜<br>비지니스<br>경영론
+                 <td></td>
+             </tr>
+             <tr>
+                 <td>10:30~12:00</td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+             </tr>
+             <tr>
+                 <td>12:00~1:30</td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+             </tr>
+             <tr>
+                 <td>1:30~3:00</td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td rowspan="2" class = "survey">사회조사<br>방법론
+             </tr>
+             <tr>
+                 <td>3:00~4:30</td>
+                 <td></td>
+                 <td></td>
+                 <td rowspan="2" class = "data">자료구조론</td>
+                 <td rowspan="2" class = "company">기업가적<br>리더십
+             </tr>
+             <tr>
+                 <td>4:30~6:00</td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+             </tr>
+             <tr>
+                 <td>6:00~7:30</td>
+                 <td rowspan="2" class = "program">프로그램언어
+                 <td rowspan="2" class = "computer">컴퓨터시스템
+                 <td></td>
+                 <td></td>
+                 <td></td>
+             </tr>
+             <tr>
+                 <td>7:30~9:00</td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+             </tr>
+         </tbody>
+     </table>
+ 
+     <aside></aside>
+     <footer></footer> 
+ 
+     <style>
+         table,
+         th,
+         tr,
+         td {
+             border: solid;
+         }
+     </style>
+ 
+     <style>
+         table{
+             border-collapse: collapse;
+             width: 500px;
+         }
+ 
+         th, td{
+             border: 2px solid black;
+             padding: 10px;
+             text-align : center;
+             vertical-align: middle;
+             line-height: 1.5;
+         }
+ 
+     </style>
+ 
+     <style>
+         th{
+             background-color:#E0F8E0 ;
+         }
+         .social{
+             background-color: #FBEFF2;
+         }
+         .survey{
+             background-color: #F7F8E0;
+         }
+         .data{
+             background-color: #E0F8E0;
+         }
+         .program{
+             background-color:#F8ECE0 ;
+         }
+         .company{
+             background-color: #E0E6F8;
+         }
+         .computer{
+             background-color: #F2EFFB;
+         }
+     </style>
+ 
+ </body>
+ </html>
