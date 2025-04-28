@@ -1,0 +1,17 @@
+.category-nav{
+    display: flex;
+    position:fixed;
+    width: 100%;
+    gap: 10px;
+    margin-top: 100px;
+    margin-left: 70px;
+    padding: 10px;
+    background-color: white;
+}
+
+.category-nav > div{
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    white-space: nowrap;
+    border-radius: 15px;
+}

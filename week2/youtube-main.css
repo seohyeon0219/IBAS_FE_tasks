@@ -1,0 +1,58 @@
+.bottom-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video-card{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 200px;
+    margin-left: 100px;
+} 
+
+.video{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 330px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    /* flex-basis: 330px; */
+    max-width: 500px;
+    min-width: 200px;
+    gap: 10px;
+}
+
+.video-top{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-bottom{
+    display: flex;
+    gap: 10px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.youtuber{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.title{
+    font-size: 13px;
+}
+
+.channel, 
+.info{
+    font-size: 13px;
+}

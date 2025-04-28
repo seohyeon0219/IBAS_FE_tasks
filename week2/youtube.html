@@ -12,12 +12,10 @@
     <link rel="icon" href="youtube-png\youtube_logo_simple.png">
 
     <!--html css 연결-->
-    <link rel="stylesheet" type="text/css" href="youtube-top.css">
-    <link rel="stylesheet" type="text/css" href="youtube-aside.css">
-    <link rel="stylesheet" type="text/css" href="youtube-nav.css">
-    <link rel="stylesheet" type="text/css" href="youtube-section.css">
-
-
+    <link rel="stylesheet" type="text/css" href="youtube-header.css">
+    <link rel="stylesheet" type="text/css" href="youtube-nav1.css">
+    <link rel="stylesheet" type="text/css" href="youtube-nav2.css">
+    <link rel="stylesheet" type="text/css" href="youtube-main.css">
 
     <!--icon 사이트 연결-->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
@@ -28,14 +26,14 @@
 
 <body>
     <!--header 시작-->
-    <header class="top">
-        <div class="top-left">
+    <header>
+        <div class="header-left">
             <span class="material-symbols-outlined left-menu-icon">menu</span>
             <h1>YouTube</h1>
         </div>
-        <div class="top-middle">
+        <div class="header-middle">
             <form class="search" method="get">
-                <input class="search-text" type="text" placeholder="검색" autocomplete="on">
+                <input class="search-text" type="text" placeholder="&nbsp;&nbsp;검색" autocomplete="on">
                 <button class="search-button">
                     <span class="material-symbols-outlined search-icon">
                         search
@@ -48,7 +46,7 @@
                     </span>
             </button>
         </div>
-        <div class="top-right">
+        <div class="header-right">
             <button class="make">
                 <span class="material-symbols-outlined make-icon">
                     add
@@ -69,10 +67,9 @@
     </header>
     <!--header 끝-->
 
-    <!--main 시작-->
-    <main class="bottom">
-        <!--aside 시작-->
-        <aside class="menulist">
+    <div class="bottom">
+        <!--nav1 시작 (bottom-left)-->
+        <nav class="side-nav">
             <div class="menu">
                 <span class="material-symbols-outlined menu-icon">
                     home
@@ -97,13 +94,13 @@
                 </span>
                 <p class="menu-text">내 페이지</p>
             </div>
-        </aside>
-        <!--aside 끝-->
+        </nav>
+        <!--nav1 끝-->
 
-        <!--section 시작-->
-        <section class="contents">
-            <!--nav 시작-->
-            <nav class="contents-category">
+        
+        <div class="bottom-right">
+            <!--nav2 시작 (bottom-right)-->
+            <nav class="category-nav">
                 <div>전체</div>
                 <div>음악</div>
                 <div>믹스</div>
@@ -114,18 +111,17 @@
                 <div>감상한 동영상</div>
                 <div>새로운 맞춤 동영상</div>
             </nav>
-            <!--nav 끝-->
+            <!--nav2 끝-->
 
-            <!--section 시작-->
-            <section class="video-card">
-                <!--article 시작-->
-                <!--1번째 영상-->
-                <article class="video">
+            <!--main 시작-->
+            <main class="video-card">
+            <!--1번째 영상-->
+                <section class="video">
                     <!--썸네일 이미지-->
-                    <img src="youtube-png\video.png" alt="dog_picture" class="video-top">
+                    <img src="youtube-png\video.png" alt="Loving you girl" class="video-top">
                     <div class="video-bottom">
                         <!--유튜버 프로필 이미지-->
-                        <img src="youtube-png\youtuber.png" alt="youtuber_picture" class="youtuber">
+                        <img src="youtube-png\youtuber.png" alt="Peder Elias" class="youtuber">
                         <!--텍스트 정보-->
                         <div class="text">
                             <!--영상 제목-->
@@ -142,11 +138,11 @@
                             </div>
                         </div>
                     </div>
-                </article>
-                <article class="video">
-                    <img src="youtube-png\video.png" alt="dog_picture" class="video-top">
+                </section>
+                <section class="video">
+                    <img src="youtube-png\video.png" alt="Loving you girl" class="video-top">
                     <div class="video-bottom">
-                        <img src="youtube-png\youtuber.png" alt="youtuber_picture" class="youtuber">
+                        <img src="youtube-png\youtuber.png" alt="Peder Elias" class="youtuber">
                         <div class="text">
                             <h2 class="title">
                                 Peder Elias - Loving You Girl (Lyric Video) ft.Hkeem🎵 
@@ -159,11 +155,11 @@
                             </div>
                         </div>
                     </div>
-                </article>
-                <article class="video">
-                    <img src="youtube-png\video.png" alt="dog_picture" class="video-top">
+                </section>
+                <section class="video">
+                    <img src="youtube-png\video.png" alt="Loving you girl" class="video-top">
                     <div class="video-bottom">
-                        <img src="youtube-png\youtuber.png" alt="youtuber_picture" class="youtuber">
+                        <img src="youtube-png\youtuber.png" alt="Peder Elias" class="youtuber">
                         <div class="text">
                             <h2 class="title">
                                 Peder Elias - Loving You Girl (Lyric Video) ft.Hkeem🎵 
@@ -176,11 +172,11 @@
                             </div>
                         </div>
                     </div>
-                </article>
-                <article class="video">
-                    <img src="youtube-png\video.png" alt="dog_picture" class="video-top">
+                </section>
+                <section class="video">
+                    <img src="youtube-png\video.png" alt="Loving you girl" class="video-top">
                     <div class="video-bottom">
-                        <img src="youtube-png\youtuber.png" alt="youtuber_picture" class="youtuber">
+                        <img src="youtube-png\youtuber.png" alt="Peder Elias" class="youtuber">
                         <div class="text">
                             <h2 class="title">
                                 Peder Elias - Loving You Girl (Lyric Video) ft.Hkeem🎵 
@@ -193,11 +189,11 @@
                             </div>
                         </div>
                     </div>
-                </article>
-                <article class="video">
-                    <img src="youtube-png\video.png" alt="dog_picture" class="video-top">
+                </section>
+                <section class="video">
+                    <img src="youtube-png\video.png" alt="Loving you girl" class="video-top">
                     <div class="video-bottom">
-                        <img src="youtube-png\youtuber.png" alt="youtuber_picture" class="youtuber">
+                        <img src="youtube-png\youtuber.png" alt="Peder Elias" class="youtuber">
                         <div class="text">
                             <h2 class="title">
                                 Peder Elias - Loving You Girl (Lyric Video) ft.Hkeem🎵 
@@ -210,11 +206,11 @@
                             </div>
                         </div>
                     </div>
-                </article>
-                <article class="video">
-                    <img src="youtube-png\video.png" alt="dog_picture" class="video-top">
+                </section>
+                <section class="video">
+                    <img src="youtube-png\video.png" alt="Loving you girl" class="video-top">
                     <div class="video-bottom">
-                        <img src="youtube-png\youtuber.png" alt="youtuber_picture" class="youtuber">
+                        <img src="youtube-png\youtuber.png" alt="Peder Elias" class="youtuber">
                         <div class="text">
                             <h2 class="title">
                                 Peder Elias - Loving You Girl (Lyric Video) ft.Hkeem🎵 
@@ -227,11 +223,11 @@
                             </div>
                         </div>
                     </div>
-                </article>
-                <article class="video">
-                    <img src="youtube-png\video.png" alt="dog_picture" class="video-top">
+                </section>
+                <section class="video">
+                    <img src="youtube-png\video.png" alt="Loving you girl" class="video-top">
                     <div class="video-bottom">
-                        <img src="youtube-png\youtuber.png" alt="youtuber_picture" class="youtuber">
+                        <img src="youtube-png\youtuber.png" alt="Peder Elias" class="youtuber">
                         <div class="text">
                             <h2 class="title">
                                 Peder Elias - Loving You Girl (Lyric Video) ft.Hkeem🎵 
@@ -244,11 +240,11 @@
                             </div>
                         </div>
                     </div>
-                </article>
-                <article class="video">
-                    <img src="youtube-png\video.png" alt="dog_picture" class="video-top">
+                </section>
+                <section class="video">
+                    <img src="youtube-png\video.png" alt="Loving you girl" class="video-top">
                     <div class="video-bottom">
-                        <img src="youtube-png\youtuber.png" alt="youtuber_picture" class="youtuber">
+                        <img src="youtube-png\youtuber.png" alt="Peder Elias" class="youtuber">
                         <div class="text">
                             <h2 class="title">
                                 Peder Elias - Loving You Girl (Lyric Video) ft.Hkeem🎵 
@@ -261,11 +257,11 @@
                             </div>
                         </div>
                     </div>
-                </article>
-                <!--article 끝-->
-            </section>
-        </section>
-        <!--section 끝-->
-    </main>
+                </section>
+                <!--section 끝-->
+            </main>
+            <!--main 끝-->
+        </div>
+    </div>
 </body>
 </html>
