@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-title-top{
+    margin: 50px;
+}
+
+.start-button{
+    margin: 100px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(255, 235, 210);
+    font-size: 20px;
+}
+
+/* 폰트 설정 */
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
