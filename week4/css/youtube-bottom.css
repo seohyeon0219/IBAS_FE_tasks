@@ -1,0 +1,46 @@
+.bottom{
+    display: flex;
+}
+
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50px;
+    gap: 30px;
+    margin: 15px;
+}
+
+.bottom-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-text{
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.category-nav{
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+}
+
+.category-nav div{
+    padding: 10px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
